@@ -8,14 +8,9 @@
 body {
   background: var(--primary-color);
   margin-top: 80px;
-}
-
-.hero {
+  color: var(--fourth-color);
   font-family: "Overpass", sans-serif;
   text-align: center;
-  background: var(--primary-color);
-  margin: 0px;
-  color: var(--fourth-color);
   font-size: 18px;
 }
 
@@ -30,9 +25,30 @@ h1 {
 
 .card {
   background: var(--secondary-color);
+  color: var(--fourth-color);
+  font-size: 15px;
 }
 
 img {
   height: 200px;
   width: 200px;
+}
+
+.button {
+  background-color: var(--third-color);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--fourth-color);
 }
