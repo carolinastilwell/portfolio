@@ -71,11 +71,30 @@ img {
   background-color: var(--fourth-color);
 }
 
-i {
-  color: var(--primary-color);
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
 }
 
-footer {
+footer .email-link:hover {
+  color: var(--third-color);
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0 20px;
+  padding-top: 5px;
+  background-color: var(--third-color);
+  border-radius: 100%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--fourth-color);
+  color: white;
+}
+
+.foot {
+  font-size: 10px;
   font-family: monospace;
-  font-size: 12px;
 }
