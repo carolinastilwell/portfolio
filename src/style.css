@@ -47,7 +47,7 @@ h1 {
   font-size: 14px;
 }
 
-img {
+img .profile {
   height: 200px;
   width: 200px;
 }
@@ -97,4 +97,9 @@ footer .social-links a:hover {
 .foot {
   font-size: 10px;
   font-family: monospace;
+}
+
+.about-section p {
+  font-size: 15px;
+  text-align: left;
 }
