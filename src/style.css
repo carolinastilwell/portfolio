@@ -7,14 +7,27 @@
 
 body {
   background: var(--primary-color);
-  margin-top: 80px;
+  margin-top: 0px;
   color: var(--fourth-color);
   font-family: "Overpass", sans-serif;
   text-align: center;
   font-size: 18px;
 }
+nav {
+  margin-top: 0;
+}
+
+.nav-link {
+  color: var(--fourth-color);
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: var(--third-color);
+}
 
 .square {
+  margin-top: 10px;
   background: var(--secondary-color);
 }
 
