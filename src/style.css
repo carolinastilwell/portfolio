@@ -103,3 +103,13 @@ footer .social-links a:hover {
   font-size: 15px;
   text-align: left;
 }
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .about-section {
+    padding: 10px 50px;
+  }
+}
